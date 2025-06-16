@@ -1,0 +1,133 @@
+.footer{
+    height:550px;
+    background: rgb(105,171,255);
+    background: linear-gradient(298deg, rgba(105,171,255,1) 0%, rgba(160,243,255,1) 50%, rgba(229,255,249,1) 100%);
+    font-size: 35px;
+    color: rgb(37, 37, 37);
+    
+    
+
+
+    .toTopDiv{
+        overflow: visible;
+        
+        .toTop {
+            opacity: 1;
+            display: inline;
+            height:fit-content;
+            font-size: 15px;
+            color: rgba(39, 44, 43, 0.651);
+            border: none;
+            position: fixed;
+            bottom: 0;
+            right: 0;   
+            text-shadow: -2px -2px 12px rgba(0,0,0,0.68);
+            text-decoration: none;
+            padding:10px 40px 40px 10px;
+            margin:0;
+        }
+
+    .toTop:hover{
+            color:rgb(0, 0, 0);
+            font-weight: 600;
+            overflow: visible;
+            transition: 0.5s;
+            
+        }
+     
+    }
+    .footer:hover .toTop{
+        font-size: 50px;
+        transition: .5s;
+        font-weight: 600;
+        color:rgb(0, 0, 0);
+    }
+    .footer:hover:after .toTop{
+        transition-delay: 2s; 
+      }
+
+    .footer-index{
+        
+        
+        .information{
+            position:absolute;
+            margin-left: 2%;
+            padding-top: 1%;
+            width:50%;
+            h3{
+                font-weight: 300;
+                font-size: 55px;
+                margin:0;
+                padding:0;
+                display: inline;
+                border-bottom: solid 1px rgb(26, 26, 26);
+                
+            }
+            .information-text{
+                padding-top: 20px;
+                font-weight: 350;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+            .information-text2{
+                // padding-top: 1em;
+                font-weight: 350;
+                padding-bottom: 0;
+                margin-bottom: 0;
+                width:500px;
+            }
+
+        }
+        .contact{
+            width:50%;
+            position: absolute; 
+            }
+
+            .location{
+                margin: 0 100%;
+                width:40%;
+                // float: left;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+            .location-text{
+                padding-top:20px;
+                width:500px;
+            }
+
+        .bottom-footer{
+            height:300px;
+            position:relative;
+            
+            .copyright{
+                width:400px;
+
+                .copyright-text{
+                    display: block;
+                    position: absolute;
+                    bottom: -30px;
+                    right: 0px;
+                    left: 200px;
+                    width: 500px;
+                    font-size: 25px;
+                }
+
+            }
+            
+            .decoration{
+                
+                background-image: url(../../public/img/bottle-sand.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: absolute;
+                bottom: 0px;
+                right:0;
+                height:300px;
+                width:460px;
+                background-position: center;
+            }
+
+        }
+    }
+
+}

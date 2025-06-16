@@ -1,0 +1,87 @@
+.content-index{
+    $r1:380px;
+    $r2:530px;
+    $r3:776px;
+    $r4:992px;
+    $r5:1200px;
+    $r6:1600px;
+    $r7:1920px;
+    $r8:4200px;
+
+    background-image: 
+    radial-gradient(farthest-side at bottom left,rgba(84, 221, 252, 0.5),transparent),
+    radial-gradient(farthest-corner at bottom right,rgba(31, 130, 249, 0.309),transparent),
+    radial-gradient(ellipse at bottom,rgba(166, 249, 255, 0.694),transparent),
+    radial-gradient(farthest-corner at top left,rgb(197, 240, 248),transparent),
+    radial-gradient(#5fc2ff, #ffffff);
+
+    height:1500px;
+    text-align: center;
+
+    .headline-index{
+        display: inline;
+        border-bottom: 4mm ridge rgba(64, 161, 240, 0.6);
+        top: .5em;
+        position: relative;
+    }
+    
+    .main-background{
+        padding-top: 4em;
+    }
+    
+    .linkToCollection{
+        padding:10px 5px;
+    }
+
+    .linkToCollection:hover{
+        font-size: 22px;
+        transition: .5s;
+        
+    }
+
+    .index-textareas{
+        text-align: center;
+        padding: 7rem 0;    
+        .index-textarea{
+            width:35%;
+            display: inline-block;
+            border: 3px solid black;
+            border-radius: 3%;
+            // padding: 1rem 1rem;
+            margin: 2rem 3rem;
+            vertical-align: middle;
+    
+            .text-index{
+                
+            }
+        }
+        .index-textarea1{
+            
+        }
+        .index-textarea2{
+    
+        }
+    }
+    
+
+    //position:relative;
+    .header-background {
+        background-image: url(../../public/img/LandingImage.jpeg);
+        // background-size: 80%;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-position: center 70%;
+        height: 600px;
+        width: 100%;
+        //mix-blend-mode:luminosity;
+    }
+
+
+
+}
+
+
+
+    
+
+

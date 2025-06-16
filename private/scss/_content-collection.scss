@@ -1,0 +1,158 @@
+.content-collection{
+   
+
+    
+    //background-image: linear-gradient(yellow, green), url(../../public/img/ddouble_large_water_PNG50206.png);
+    
+    background-image: 
+    url(../../public/img/double_large_water_PNG50206.png), 
+        radial-gradient(farthest-side at bottom left,rgba(84, 221, 252, 0.5),transparent),
+        radial-gradient(farthest-corner at bottom right,rgba(31, 130, 249, 0.309),transparent),
+        radial-gradient(#5fc2ff, #ffffff);
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+        
+
+    .collection{
+        width:100%;
+        height:3000px;
+        // text-align: center;
+        // vertical-align: middle;
+        // margin:0 auto;
+        .overview-headline{
+            text-align: center;
+            
+            display: inline;
+            padding-top: 1em;
+            font-size: 65px;
+            
+        }
+        
+    
+        .card{
+            width:25%;
+            float: left;
+            margin: 20px 20px;
+            height: 650px;
+            
+            .card-img{
+                background-size: contain;
+                height:auto;
+                width:100%
+            }
+
+
+            .card-body{
+
+                position:relative;
+                padding:1em;
+
+                .card-background{
+                    height:352px;
+                    width:100%;
+                    // background-image: url(../../public/img/small_water_PNG50206.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    
+                    background-image: 
+                    // url(../../public/img/small_water_PNG50206.png),
+                    radial-gradient(ellipse at left,rgba(184, 230, 240, 0.5),transparent),
+                    radial-gradient(ellipse at right,rgba(117, 168, 227, 0.775),transparent),
+                    radial-gradient(#5ecfdc, #faea08cd);
+                    opacity: 0.3;
+                    position:absolute;
+                    top:0;
+                    left:0;
+                }
+
+                .card-text{
+            
+                    color:rgb(0, 0, 0);
+            
+                }
+                .card-headline{
+                    text-decoration: underline;
+            
+                }
+                // .card-brewery{
+            
+            
+                // }
+                // .card-drinkName{
+            
+            
+                // }
+                // .card-drinkType{
+            
+            
+                // }
+                .card-rating-header{
+                    text-decoration: underline;
+                    text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+                    font-size: large;
+                    // background-color: rgba(46, 46, 46, 0.147);
+                    // border-radius: 10px;
+                    
+                    width: fit-content;
+                    padding: 0 10px;
+                }
+                .card-rating{
+                    position:absolute;
+                    width:89%;
+                    bottom:20px;
+                    background-color: rgba(110, 110, 110, 0.254);
+                    border-radius: 2px;
+
+
+                    .star{
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        height:44px;
+                        width:44px;
+                        display: inline-block;
+                        padding:22px;
+                    }
+                    
+
+                    
+
+                    
+                }
+            .linkToDetails{
+                position: absolute;
+                bottom:0;
+                right:0;
+                
+                padding:0;
+                margin:0;
+                // text-decoration: none;
+            }
+            .linkToDetails:hover{
+                font-weight: 600;
+                text-decoration: underline;
+                
+
+            }
+
+
+        }
+
+                            
+    }
+
+}
+
+}
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,173 @@
+.content-details{
+    height:auto;
+    background-image: 
+        radial-gradient(farthest-side at bottom left,rgba(94, 194, 216, 0.5),transparent),
+        radial-gradient(farthest-corner at bottom right,rgba(193, 200, 209, 0.309),transparent),
+        radial-gradient(#4898ca, #ddc7c7);
+        text-align: center;
+    --details-height: 450px;
+
+    table, tr, td{
+        border:none;
+    }
+
+
+    .viewitem-img{
+        height:auto;
+        width:100%;
+    }
+
+    .details-top-headline{
+        padding-top: 1em;
+        font-size: 45px;
+        text-align: center;
+    }
+    .details-navigation{
+        background-color: rgba(137, 192, 236, 0.473);
+        margin-top: 75px;
+        padding-bottom:75px;
+        font-size: 30px;
+               
+        .tableview-headline{
+            margin-left:1em;
+        }
+
+        .tableview{
+            display:block;
+            background-color: rgba(110, 110, 110, 0.164);
+            margin: 0 auto;
+
+            .tableview-headline, h3{
+                margin-top: 20px;
+            }
+            .tablerowview{
+                
+            }
+                .tableviewitem{
+                    background-color: transparent;
+                }
+                .tableviewitem:hover { 
+                    filter: brightness(110%); 
+                    filter:contrast(120%);
+                }
+        }
+    }
+    .table{
+        width:100%;
+    
+        .table-entry{
+            display:block;
+            width:100%;
+            padding:10% 0;
+        }
+        .lastentry{
+            padding-bottom:25%;
+        }
+    }
+
+    .details-headline{
+        height:calc(0.15*var(--details-height));
+        font-weight: 575;
+        text-align: center;
+        vertical-align:baseline;
+        font-size: 36px;
+        background-color: rgba(161, 161, 161, 0.116);
+        padding-top: 0;
+    }
+
+   .wrapper-details{
+    width:100%;
+    height:var(--details-height);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    position: relative;
+    font-size: 20px;
+    
+        .details-img{
+            float:left;
+            width:var(--details-height);
+            height:var(--details-height);
+            border-radius: 2px;
+        }
+        .details-description{
+            float:left;
+            width:50%;
+            background: rgba(201, 183, 214, 0.322);
+            background: linear-gradient(142deg, rgba(201, 183, 214, 0.336) 0%, rgba(224, 205, 205, 0.301) 50%, rgba(226, 213, 194, 0.219) 100%);
+            height:calc(0.80*var(--details-height));
+            font-size: 18px;
+        }
+
+        .details-text2{
+            background-color: rgba(243, 243, 243, 0.253);
+        }
+            .details-text1{
+            background-color: rgba(161, 161, 161, 0.116);
+        }
+        .details-text{
+            margin-top:0;
+            margin-bottom:0;
+            padding-top:0;
+            padding-bottom:0;
+            padding-left:.6em;
+            }
+  
+        .details-brewery{
+            height:calc(0.1*var(--details-height));
+
+        }
+        .details-drinkName{
+            height:calc(0.1*var(--details-height));
+
+        }
+        .details-drinkType{
+            height:calc(0.1*var(--details-height));
+
+        }
+        .details-condition{
+            height:calc(0.1*var(--details-height));
+
+        }
+        .details-textArea{
+            height:calc(0.25*var(--details-height));
+            background-color: rgba(243, 243, 243, 0.253);
+            
+        }
+        .details-rating{
+            background-color: rgba(243, 243, 243, 0.253);
+            height:calc(0.16*var(--details-height));
+        //  align-items: center;
+                // justify-content: center;
+                
+                text-align: center;
+        }    
+            
+        .star-details{
+            height:calc(0.15*var(--details-height));
+            background-repeat: no-repeat;
+            display: inline-block;
+            padding:0 30px;
+            margin-bottom: -30px;
+            background-size: cover;
+            position: relative;
+            bottom:10px;                
+        }
+
+
+        
+
+        
+        .details-rating-header{
+            
+            display:inline;
+            // align-items: center;
+            // justify-content: center;
+            // text-align: center;
+        }
+    }
+}
+            
+        
+   
+
